@@ -10,8 +10,6 @@ var lengthOfLastWord = function (s) {
       count++;
     }
 
-    console.log(i, count, s[i]);
-
     if (s[i] === ' ' && count !== 0) {
       break;
     }
