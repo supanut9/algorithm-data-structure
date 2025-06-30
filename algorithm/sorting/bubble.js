@@ -1,4 +1,8 @@
-// A sorting algorithm where the largest values bubble up to the top!
+/* 
+
+    A sorting algorithm where the largest values bubble up to the top!
+    
+*/
 
 // 1st version
 function bubbleSort(arr) {
