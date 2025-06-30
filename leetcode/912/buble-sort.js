@@ -6,11 +6,11 @@
 /*
     Buble sort is O(n^2) => Time Limit Exceeded for this problems
 */
-var sortArray = function (nums) {
-  const swap = (arr, idx1, idx2) => {
-    [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
-  };
+const swap = (arr, idx1, idx2) => {
+  [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
+};
 
+var sortArray = function (nums) {
   let noSwaps;
 
   for (let i = nums.length; i > 0; i--) {
